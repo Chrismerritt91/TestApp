@@ -12,11 +12,13 @@
 
         //    System.Console.ReadKey();
 
+        //---------------------------------------
         //area of a circle assignment
         //int radius = 3;
 
         //System.Console.Write(3.14 * radius * radius);
 
+        //-----------------------------------------------
         //height in inches to centimeters
         //double feet = 6;
         //double inches = 2;
@@ -27,6 +29,7 @@
 
         //System.Console.Write(feetInInches * oneInch);
 
+        //-------------------------------------------------------------------
         //how to round to the nearest thousandth without using commands
         //int input = 417;
         //decimal decimalInput = input;
@@ -44,19 +47,70 @@
 
         //System.Console.WriteLine(nearestThousand);
 
-        int seconds = 288970;
-        int minutes = seconds / 60;
-        int hours = seconds / 60 / 60;
-        int days = seconds / 60 / 60 / 24;
+        //-----------------------------------------------------
+        //how to convert seconds to days, hours, minutes
+        //int seconds = 288970;
+        // int minutes = seconds / 60;
+        // int hours = seconds / 60 / 60;
+        // int days = seconds / 60 / 60 / 24;
 
-        int secondsLeft = seconds - (minutes * 60);
-        int minutesLeft = minutes - (hours * 60);
-        int hoursLeft = hours - (days * 24);
+        // int secondsLeft = seconds - (minutes * 60);
+        // int minutesLeft = minutes - (hours * 60);
+        // int hoursLeft = hours - (days * 24);
 
 
-        System.Console.WriteLine(days + " days, " + hoursLeft + " hours, " + minutesLeft + " minutes, " + secondsLeft + " seconds");
+        // System.Console.WriteLine(days + " days, " + hoursLeft + " hours, " + minutesLeft + " minutes, " + secondsLeft + " seconds");
+
+        //----------------------------------------
+        //classify people by height
+        //double input = 75;
+        //double inch = 2.54;
+        //string classification;
+
+        //double height = input * inch;
+
+        //if(height < 150)
+        //{
+        //    classification = "Dwarf";
+        //    System.Console.Write(classification);
+        //}
+        //else if(height >= 150 && height < 165)
+        //{
+        //    classification = "Average height";
+        //    System.Console.Write(classification);
+        //}
+        //else if(height >= 165 && height < 195)
+        //{
+        //    classification = "Tall";
+        //    System.Console.Write(classification);
+        //}
+        //else if(height >= 195)
+        //{
+        //    classification = "Abnormal height";
+        //    System.Console.Write(classification);
+        //}
+
+        int num1 = 60;
+        int num2 = 200;
+        int num3 = 123;
+        int bigNum = 0;
+
+        if(num1 > bigNum)
+        {
+            bigNum = num1;
+        }
+        if(num2 > bigNum)
+        {
+            bigNum = num2;
+        }
+        if(num3 > bigNum)
+        {
+            bigNum = num3;
+        }
+
+        System.Console.WriteLine(bigNum);
    
-        System.Console.ReadKey();
+        System.Console.ReadKey(); 
 
     }
 
