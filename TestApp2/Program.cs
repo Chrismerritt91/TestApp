@@ -90,28 +90,79 @@
         //    System.Console.Write(classification);
         //}
 
-        int num1 = 60;
-        int num2 = 200;
-        int num3 = 123;
-        int bigNum = 0;
+        //-----------------------------------------------------
+        //find the biggest number out of the three inputs
+        //int num1 = 60;
+        //int num2 = 200;
+        //int num3 = 123;
+        //int bigNum = 0;
 
-        if(num1 > bigNum)
+        //if(num1 > bigNum)
+        //{
+        //    bigNum = num1;
+        //}
+        //if(num2 > bigNum)
+        //{
+        //    bigNum = num2;
+        //}
+        //if(num3 > bigNum)
+        //{
+        //    bigNum = num3;
+        //}
+
+        //System.Console.WriteLine(bigNum);
+
+        //-------------------------------------------------
+        //pattern printing exercise
+
+        for (int i = 0; i < 3; i++)
         {
-            bigNum = num1;
-        }
-        if(num2 > bigNum)
-        {
-            bigNum = num2;
-        }
-        if(num3 > bigNum)
-        {
-            bigNum = num3;
+
+            for (int j = 1; j <= 10; j++)
+            {
+
+                if (j == 5 || j == 6)
+                {
+                    continue;
+                }
+                
+                    System.Console.Write(j + " ");
+            }
+            System.Console.WriteLine();
         }
 
-        System.Console.WriteLine(bigNum);
-   
-        System.Console.ReadKey(); 
+        for (int i = 0; i < 5; i++)
+            {
+
+            for (int j = 10; j >= 1; j--)
+            {
+
+                if (i == 2)
+                {
+                    if(j < 3)
+                    {
+                        continue;
+                    }
+                  
+                }
+
+                if(i == 4)
+                {
+                    if(j == 3)
+                    {
+                        continue;
+                    }
+
+                    System.Console.Write((11 - j) + " ");
+                    continue;
+                }
+                System.Console.Write(j + " ");
+            }
+            System.Console.WriteLine();
+        }
+        System.Console.ReadKey();
 
     }
+
 
 }

@@ -22,5 +22,29 @@
 
     //    System.Console.ReadKey();
     //}
+
+    //static void Main()
+    //{
+    //    unstructured loop created with a goto statement
+    //    int i = 1;
+    //    System.Console.WriteLine("go USA");
+    //    System.Console.WriteLine("go Brasil");
+    //    mylabel:
+    //    System.Console.WriteLine("go Argentina");
+    //    System.Console.WriteLine("go Morroco");
+    //    i++;
+
+    //    if(i <= 5)
+    //    {
+    //        goto mylabel;
+    //    }
+       
+    //    System.Console.WriteLine("go Costa Rica");
+
+    //    System.Console.ReadKey();
+
+    //}
+
+
 }
 
