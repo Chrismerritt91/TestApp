@@ -115,52 +115,52 @@
         //-------------------------------------------------
         //pattern printing exercise
 
-        for (int i = 0; i < 3; i++)
-        {
+        //for (int i = 0; i < 3; i++)
+        //{
 
-            for (int j = 1; j <= 10; j++)
-            {
+        //    for (int j = 1; j <= 10; j++)
+        //    {
 
-                if (j == 5 || j == 6)
-                {
-                    continue;
-                }
-                
-                    System.Console.Write(j + " ");
-            }
-            System.Console.WriteLine();
-        }
+        //        if (j == 5 || j == 6)
+        //        {
+        //            continue;
+        //        }
 
-        for (int i = 0; i < 5; i++)
-            {
+        //        System.Console.Write(j + " ");
+        //    }
+        //    System.Console.WriteLine();
+        //}
 
-            for (int j = 10; j >= 1; j--)
-            {
+        //for (int i = 0; i < 5; i++)
+        //{
 
-                if (i == 2)
-                {
-                    if(j < 3)
-                    {
-                        continue;
-                    }
-                  
-                }
+        //    for (int j = 10; j >= 1; j--)
+        //    {
 
-                if(i == 4)
-                {
-                    if(j == 3)
-                    {
-                        continue;
-                    }
+        //        if (i == 2)
+        //        {
+        //            if (j < 3)
+        //            {
+        //                continue;
+        //            }
 
-                    System.Console.Write((11 - j) + " ");
-                    continue;
-                }
-                System.Console.Write(j + " ");
-            }
-            System.Console.WriteLine();
-        }
-        System.Console.ReadKey();
+        //        }
+
+        //        if (i == 4)
+        //        {
+        //            if (j == 3)
+        //            {
+        //                continue;
+        //            }
+
+        //            System.Console.Write((11 - j) + " ");
+        //            continue;
+        //        }
+        //        System.Console.Write(j + " ");
+        //    }
+        //    System.Console.WriteLine();
+        //}
+        //System.Console.ReadKey();
 
     }
 
